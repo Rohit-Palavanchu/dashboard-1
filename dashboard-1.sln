@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "dashboard-1", "dashboard-1\dashboard-1.esproj", "{5530B18C-4C8B-4D54-A535-270BCC9AE83B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5530B18C-4C8B-4D54-A535-270BCC9AE83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5530B18C-4C8B-4D54-A535-270BCC9AE83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5530B18C-4C8B-4D54-A535-270BCC9AE83B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5530B18C-4C8B-4D54-A535-270BCC9AE83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5530B18C-4C8B-4D54-A535-270BCC9AE83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5530B18C-4C8B-4D54-A535-270BCC9AE83B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B4FEACA-EABD-4155-8060-2530A8A82D7B}
+	EndGlobalSection
+EndGlobal

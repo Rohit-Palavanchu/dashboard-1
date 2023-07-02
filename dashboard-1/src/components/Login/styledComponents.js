@@ -1,5 +1,19 @@
 import styled from 'styled-components'
 
+export const AppleButton = styled.button`background-color:#FFFFFF;
+display:flex;
+align-items:flex-start
+color:#858585;
+font-family:"Montserrat";
+font-weight:400;
+font-size:16px;
+margin-left:20px;
+padding:8px;
+padding-left:20px;
+padding-right:20px;
+border-width:1px;
+cursor:pointer;`
+
 export const LoginContainer = styled.div`
    display:flex;
    flex-direction:column;

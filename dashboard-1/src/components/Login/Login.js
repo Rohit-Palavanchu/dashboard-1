@@ -1,7 +1,8 @@
 import { Component } from 'react'
-import { LoginContainer, WelcomeMessageSmall, WelcomeMessageLarge, WelcomeMessage, SignInContainer, SignInTypesContainer, SignInContainerHeading, SignInContainerDesc, AppLoginsIconsContainer, LoginFormContainer, LoginFormInsideContainer, UsernameInputContainer, UsernameTitle, UsernameInput, ForgotPassword, SubmitButton, AccountCreate, AccountCreateSpan, ErrorMessage } from './styledComponents'
+import { AppleButton, LoginContainer, WelcomeMessageSmall, WelcomeMessageLarge, WelcomeMessage, SignInContainer, SignInTypesContainer, SignInContainerHeading, SignInContainerDesc, AppLoginsIconsContainer, LoginFormContainer, LoginFormInsideContainer, UsernameInputContainer, UsernameTitle, UsernameInput, ForgotPassword, SubmitButton, AccountCreate, AccountCreateSpan, ErrorMessage } from './styledComponents'
 import Cookies from 'js-cookie'
 import { Redirect } from 'react-router-dom'
+import { FaApple } from 'react-icons/fa'
 export default class Login extends Component {
     state = { username: '', password: '', showErrorMsg: false, errorMsg: '' }
     handleCallbackResponse = (e) => {
@@ -61,7 +62,7 @@ export default class Login extends Component {
                         <SignInContainerDesc>Sign in to your account</SignInContainerDesc>
                         <AppLoginsIconsContainer>
                             <div id="signInDiv"></div>
-                            <div id="appleid-signin"></div>
+                            <AppleButton><FaApple /> Sign In with Apple</AppleButton>
                         </AppLoginsIconsContainer>
                         <LoginFormContainer>
                             <LoginFormInsideContainer onSubmit={this.onClickLoginButton}>

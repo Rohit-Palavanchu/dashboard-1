@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import { LoginContainer, WelcomeMessageSmall, WelcomeMessageLarge, WelcomeMessage, SignInContainer, SignInTypesContainer, SignInContainerHeading, SignInContainerDesc, AppLoginsIconsContainer, LoginFormContainer, LoginFormInsideContainer, UsernameInputContainer, UsernameTitle, UsernameInput, ForgotPassword, SubmitButton, AccountCreate, AccountCreateSpan, ErrorMessage } from './styledComponents'
 import Cookies from 'js-cookie'
-import {Redirect} from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 export default class Login extends Component {
     state = { username: '', password: '', showErrorMsg: false, errorMsg: '' }
     handleCallbackResponse = (e) => {
